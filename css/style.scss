@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  
 body {
     font-family: 'Noto Sans Mono', monospace;
     margin: 0;
@@ -47,13 +46,11 @@ body {
 .sidebar-text{
 font-size: 1rem;
 }
-  
 .main {   
     flex: 70%;
     background-color: white;
     padding: 20px;
   }
-
   /*--------Footer--------*/
 .footer {
     padding: 20px;
