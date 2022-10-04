@@ -1,1 +1,81 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans Mono", monospace;
+  margin: 0;
+}
+
+/*--------Header--------*/
+.header {
+  padding: 80px;
+  text-align: center;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+/*--------Nav--------*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*--------Experience--------*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*--------Sidebar/left column--------*/
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.sidebar-text {
+  font-size: 1rem;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/*--------Footer--------*/
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/*--------Mobile--------*/
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
