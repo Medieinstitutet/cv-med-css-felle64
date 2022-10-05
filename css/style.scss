@@ -9,7 +9,7 @@ body {
 .header {
     padding: 80px;
     text-align: center;
-    background-color:rgb(37, 37, 37);
+    background-color: rgb(129, 0, 0);
     color: white;
     position: relative;
   }
@@ -70,4 +70,21 @@ font-size: 1rem;
       width: 100%;
     }
   }
-  
+/*-------Dark Mode-----*/
+@media (prefers-color-scheme:dark){
+  .side {
+    flex: 30%;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+}
+.sidebar-text{
+font-size: 1rem;
+}
+.main {   
+    flex: 70%;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: white;
+  }
+}
